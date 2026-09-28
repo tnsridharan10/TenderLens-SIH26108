@@ -1,0 +1,13 @@
+﻿src/App.tsx(18,10): error TS2305: Module '"./data/mockData"' has no exported member 'MOCK_TENDERS'.
+src/App.tsx(18,24): error TS2724: '"./data/mockData"' has no exported member named 'MOCK_AMENDMENT_ALERTS'. Did you mean 'MOCK_AMENDMENTS'?
+src/App.tsx(37,18): error TS2345: Argument of type '"analysis-results"' is not assignable to parameter of type 'SetStateAction<NavItem>'.
+src/App.tsx(48,18): error TS2345: Argument of type '"analysis-results"' is not assignable to parameter of type 'SetStateAction<NavItem>'.
+src/App.tsx(55,9): error TS2322: Type '{ selectedDepartment: string; onSelectDepartment: Dispatch<SetStateAction<string>>; onOpenArchitecture: () => void; }' is not assignable to type 'IntrinsicAttributes & HeaderProps'.
+  Property 'selectedDepartment' does not exist on type 'IntrinsicAttributes & HeaderProps'.
+src/App.tsx(65,11): error TS2322: Type '{ activeTab: NavItem; onSelectTab: Dispatch<SetStateAction<NavItem>>; amendmentCount: any; }' is not assignable to type 'IntrinsicAttributes & SidebarProps'.
+  Property 'amendmentCount' does not exist on type 'IntrinsicAttributes & SidebarProps'.
+src/App.tsx(71,14): error TS2741: Property 'currentDepartment' is missing in type '{ tenders: Tender[]; amendments: any; onNavigate: Dispatch<SetStateAction<NavItem>>; onSelectTender: (tender: Tender) => void; }' but required in type 'DashboardViewProps'.
+src/App.tsx(81,15): error TS2322: Type '{ onStartProcessing: () => void; }' is not assignable to type 'IntrinsicAttributes & NewTenderAnalysisViewProps'.
+  Property 'onStartProcessing' does not exist on type 'IntrinsicAttributes & NewTenderAnalysisViewProps'.
+src/App.tsx(85,12): error TS2367: This comparison appears to be unintentional because the types 'NavItem' and '"analysis-results"' have no overlap.
+src/App.tsx(93,12): error TS2367: This comparison appears to be unintentional because the types 'NavItem' and '"compliance-gap"' have no overlap.
